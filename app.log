@@ -1,0 +1,9 @@
+2025-08-13 00:04:00.956 INFO  mate.academy.Main - Application started.
+2025-08-13 00:04:00.967 INFO  mate.academy.service.AuthenticationServiceImpl - Login method was called. Params: login=bob
+2025-08-13 00:04:00.967 DEBUG mate.academy.service.AuthenticationServiceImpl - Method findByLogin was called. Params: login=bob
+2025-08-13 00:04:00.967 INFO  mate.academy.service.AuthenticationServiceImpl - User bob logged in successfully.
+2025-08-13 00:04:00.968 INFO  mate.academy.service.OrderServiceImpl - Method completeOrder called for userId: 2
+2025-08-13 00:04:00.968 DEBUG mate.academy.service.OrderServiceImpl - Getting products from shopping cart for userId: 2
+2025-08-13 00:04:00.981 INFO  mate.academy.service.OrderServiceImpl - Successfully fetched products for userId: 2
+2025-08-13 00:04:00.982 INFO  mate.academy.service.OrderServiceImpl - Order for userId 2 successfully completed with orderId: 1
+2025-08-13 00:04:00.982 INFO  mate.academy.Main - Application finished.
